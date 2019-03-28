@@ -5,9 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1,btn2;
+    ImageView btn1,btn2;
     //Intent intent = new Intent(this,Picture.class);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
