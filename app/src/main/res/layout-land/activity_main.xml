@@ -8,25 +8,23 @@
     android:layout_margin="15dp"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageView
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginRight="5dp"
-        android:layout_weight="1"
-        android:background="@android:color/holo_blue_dark"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="73dp" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/button"
+        app:layout_constraintDimensionRatio="1:1"
+        android:layout_weight="1"/>
 
-    <Button
+    <ImageView
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="5dp"
-        android:layout_weight="1"
-        android:background="@android:color/holo_red_dark"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="36dp" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/button"
+        app:layout_constraintDimensionRatio="1:1"
+        android:layout_weight="1"/>
 
 
 </LinearLayout>
